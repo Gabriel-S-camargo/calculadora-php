@@ -52,7 +52,7 @@ function calculateMathOperation($operation, $number1, $number2)
 {
 
 	if (!is_numeric($number1) || !is_numeric($number2)) {
-		return "Error! Prencha apenas valores válidos";
+		return "a id=\"localEcho\"Error! Prencha apenas valores válidos </a>";
 	}
 
 	switch ($operation) {
@@ -103,7 +103,7 @@ function calculateMathOperation($operation, $number1, $number2)
 
 			break;
 		default:
-			return "Error! operacao inválida.";
+			return "<a id=\"localEcho\">Error! operacao inválida.</a>";
 	}
 
 	number_format($result, 2, ',', ' ');
