@@ -22,13 +22,24 @@ body {
   padding: 100px;
 }
 
+form{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
 .formNumbers {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 50vw;
-  height: 20vh;
+  width: 15vw;
+  padding: 8px;
+  font-size: 18px;
 }
 
 .formButtons {
@@ -54,6 +65,7 @@ body {
   border: none;
   border-radius: 10px;
   background-color: hsl(193, 38%, 86%);
+  font-size: 16px;
 }
 
 #localEcho {
@@ -63,6 +75,10 @@ body {
   height: 10vh;
   width: 25vw;
   font-size: 24px;
+  color: #ffffff;
+}
+
+footer{
   color: #ffffff;
 }
 
