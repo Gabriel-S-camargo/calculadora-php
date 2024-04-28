@@ -89,7 +89,7 @@ function calculateMathOperation($operation, $number1, $number2)
 
 			$tempVar = $number1 + $number2;
 			if ($tempVar < 0) {
-				return "<a id=\"localEcho\"> <br>Error! Não existe fatorial de numeros negativos.</a>";
+				return "<a id=\"localEcho\"> Error! Não existe fatorial de numeros negativos.</a>";
 			}
 
 			if ($tempVar == 0 || $tempVar == 1) {
