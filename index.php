@@ -52,7 +52,7 @@ function calculateMathOperation($operation, $number1, $number2)
 {
 
 	if (!is_numeric($number1) || !is_numeric($number2)) {
-		return "a id=\"localEcho\"Error! Prencha apenas valores válidos </a>";
+		return "<a id=\"localEcho\">Error! Prencha apenas valores válidos </a>";
 	}
 
 	switch ($operation) {
