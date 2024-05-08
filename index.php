@@ -92,8 +92,12 @@
 					return "<a id=\"localEcho\">Error! Não existe fatorial de numeros negativos.</a>";
 				}
 
-				if ($tempVar == 0 || $tempVar == 1) {
-					return 1;
+				if ($tempVar == 0) {
+					return "<a id=\"localEcho\">Alerta! Fatorial de 0 é 1</a>";
+				}
+
+				if($tempVar == 1){
+					return "<a id=\"localEcho\">Alerta! Fatorial de 1 é 1</a>";
 				}
 
 				$result = 1;
